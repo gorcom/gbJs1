@@ -21,10 +21,10 @@ for (var i = 1; i <= 100; i++) {
   if (0 == i % 3 && 0 != i % 5) {
   console.log(i+"Fizz");
   }
-  else if(0 == i % 5 && 0 != i % 3) {;
+  else if(0 == i % 5 && 0 != i % 3) {
   console.log(i+"Buzz");
   }
-  else if(0 == i % 5 && 0 == i % 3) {;
+  else if(0 == i % 5 && 0 == i % 3) {
   console.log(i+"FizzBuzz");
   }
   else {
