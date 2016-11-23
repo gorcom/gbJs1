@@ -17,14 +17,17 @@ var x = 1 + (a *= 2) // "x" равен 5-ти т.к. "a" стала равна 4
 /*
 Задача со *
 */
-for (var i = 1; i <= 100; i++) {;
-  if (0 == i % 3 && 0 != i % 5) {;
+for (var i = 1; i <= 100; i++) {
+  if (0 == i % 3 && 0 != i % 5) {
   console.log(i+"Fizz");
-  };
-  if(0 == i % 5 && 0 != i % 3) {;
+  }
+  else if(0 == i % 5 && 0 != i % 3) {;
   console.log(i+"Buzz");
-  };
-  if(0 == i % 5 && 0 == i % 3) {;
+  }
+  else if(0 == i % 5 && 0 == i % 3) {;
   console.log(i+"FizzBuzz");
-  };
+  }
+  else {
+  console.log(i);
+  }
 };
